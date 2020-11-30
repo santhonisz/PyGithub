@@ -45,7 +45,7 @@ import textwrap
 
 import setuptools
 
-version = "1.54.0.1"
+version = "1.54.0.2"
 
 
 if __name__ == "__main__":
@@ -100,7 +100,7 @@ if __name__ == "__main__":
             "Topic :: Software Development",
         ],
         python_requires=">=3.5",
-        install_requires=["deprecated", "pyjwt<2.0", "requests>=2.14.0,<2.25"],
+        install_requires=["deprecated", "pyjwt<2.0", "requests>=2.14.0"],
         extras_require={"integrations": ["cryptography"]},
-        tests_require=["cryptography", "httpretty>=0.9.6"],
+        tests_require=["cryptography", "httpretty>=1.0.3"],
     )

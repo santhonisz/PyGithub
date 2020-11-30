@@ -4,6 +4,11 @@ Change log
 Stable versions
 ~~~~~~~~~~~~~~~
 
+Version 1.54.0.2 (November 5, 2021)
+-----------------------------------
+
+* Unpin requests to <2.25
+
 Version 1.54.0.1 (April 26, 2021)
 -----------------------------------
 
@@ -308,7 +313,7 @@ Version 1.43.8 (July 20, 2019)
 * Fixes #1106 for GitHub Enterprise API (#1110) (54065792)
 
 **Deprecation**
-* Repository.get_file_contents() no longer works use Repository.get_contents() instead 
+* Repository.get_file_contents() no longer works use Repository.get_contents() instead
 
 Version 1.43.7 (April 16, 2019)
 -----------------------------------
