@@ -37,7 +37,7 @@
 /dist/
 /build/
 /MANIFEST
-/PyGithub.egg-info/
+/*.egg-info/
 /.coverage
 /coverage.xml
 /.idea

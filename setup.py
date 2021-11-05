@@ -50,7 +50,7 @@ version = "1.54.0.2"
 
 if __name__ == "__main__":
     setuptools.setup(
-        name="PyGithub",
+        name="pygithub-conan",
         version=version,
         description="Use the full Github API v3",
         author="Vincent Jacques",
